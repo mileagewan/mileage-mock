@@ -1,0 +1,27 @@
+{
+  "name": "@mileage/mock",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mock",
+    "mileage",
+    "server"
+  ],
+  "author": "wanlicheng",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa2": "^2.0.0-alpha.7",
+    "koa2-cors": "^2.0.6",
+    "log4js": "^6.4.5",
+    "mockjs": "^1.1.0"
+  },
+  "bin": {
+    "mileage-mock": "index.js"
+  }
+}
